@@ -1,0 +1,58 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.header h2 {
+    grid-column: 2;
+}
+
+.header button {
+    height: 50px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.days-wrapper {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+}
+
+.calender-boxes-wrapper {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.calender-box {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    grid-template-rows: 20px 1fr;
+    height: 100px;
+    width: 100%;
+}
+
+.calender-box h6 {
+    margin: 0px;
+    justify-self: center;
+    align-self: center;
+}
+
+.calender-box textarea {
+    width: 97..25%;
+    grid-row: 2;
+    grid-column: 1/-1;
+    height: 92%;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.overflow {
+    border: 1px solid lightgray;
+    color: lightgray;
+}
